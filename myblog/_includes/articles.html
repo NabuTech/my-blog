@@ -1,0 +1,19 @@
+<!--articles.html-->
+
+<!-- articles.html -->
+
+<section class="article-list">
+  <h2>Articles</h2>
+  <ul>
+    {% for post in site.posts %}
+      <div class="blog-card">
+        <a href="{{ post.url }}">
+          <span class="blog-card-title">{{ post.title }}</span>
+          <p class="blog-card-date">{{ post.date | date: "%B %d, %Y" }}</p>
+          <p class="blog-card-description">{{ post.description }}</p>
+          Read More
+        </a>
+      </div>
+    {% endfor %}
+  </ul>
+</section>

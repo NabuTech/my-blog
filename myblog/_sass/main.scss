@@ -1,0 +1,31 @@
+@import 'reset';
+@import 'mixins';
+@import 'variables';
+@import 'fonts';
+@import 'existing-styles';
+@import 'components/header';
+@import 'components/logo';
+@import 'components/footer';
+@import 'components/infocard';
+@import 'components/icons';
+@import 'components/articles';
+@import 'components/blogcard';
+
+body {
+    background-color: $color-dark-background;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    min-height: 100vh;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
