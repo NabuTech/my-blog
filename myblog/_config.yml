@@ -71,8 +71,8 @@ feed:
 # minify: true 
 
 # Sass
-#sass: 
-#  style: compressed
+sass: 
+  style: compressed
 
 # Markdown Config
 kramdown: 

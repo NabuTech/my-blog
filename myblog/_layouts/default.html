@@ -1,16 +1,12 @@
----
-layout: default
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/header.css">
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/main.css"> 
+>
 </head>
 <body>
   {% include header.html %}
@@ -20,7 +16,8 @@ layout: default
   </main>
 
   <footer>
-    <p>&copy; {{ site.title | date: "%Y" }}</p>
+    {% include footer.html %}
   </footer>
+
 </body>
 </html>
