@@ -12,6 +12,15 @@
 @import 'components/blogcard';
 @import 'components/blog-post-page';
 
+// Fix for Magnific Popup Settings
+$mfp-iframe-ratio: calc(9 / 16);
+
+// Fix for Breakpoint Helpers
+$value: 16px; // or any other value you need
+@function base-conversion() {
+  @return calc(#{$value} / 16px * 1em);
+}
+
 body {
     background-color: $color-dark-background;
     display: flex;
