@@ -55,7 +55,6 @@ exclude:
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
-  - Gemfile
   - Gemfile.lock
   - node_modules/
   - vendor/bundle/
@@ -79,4 +78,7 @@ kramdown:
   input: GFM
   hard_wrap: false
   syntax_highlighter: rouge
+
+gems:
+  - jekyll: '3.9.3'
 
