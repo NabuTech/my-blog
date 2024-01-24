@@ -1,8 +1,25 @@
 ---
-layout: post
+layout: blog_post
 title: My Journey in Software Development- Novice to Graduate
 date: 2023-07-22
 description: Follow my journey from the hospitality industry to the world of software development. Discover how I overcame challenges, embraced growth, and found my passion in coding. Join me on this inspiring path of self-discovery.
+subheadings:
+  - text: "Epigraph"
+    slug: epigraph
+  - text: "Introduction"
+    slug: introduction
+  - text: "Starting as a Novice"
+    slug: starting-as-a-novice
+  - text: "Overview: Year One"
+    slug: overview-year-one
+  - text: "Overview: Year Two"
+    slug: overview-year-two
+  - text: "Challenges and Growth"
+    slug: challenges-and-growth
+  - text: "Future Aspirations"
+    slug: future-aspirations
+  - text: "Conclusion"
+    slug: conclusion
 ---
 
 # My Journey in Software Development: Novice to Graduate

@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="blog-container">
+  <main class="main">
+    <div class="blog-content">
+      <article class="blog-post">
+        {{ content }}
+      </article>
+    </div>
+  </main>
+
+  <aside class="blog-navigation">
+    <h3>Table of Contents</h3>
+    <ul>
+      {% for subheading in page.subheadings %}
+        <li>
+          <a href="#{{ subheading.slug }}">
+            {{ subheading.text }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </aside>
+</div>
