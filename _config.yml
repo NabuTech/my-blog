@@ -30,6 +30,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+  - minimal-mistakes-jekyll
 
 # Author Settings
 author: 
@@ -78,7 +79,3 @@ kramdown:
   input: GFM
   hard_wrap: false
   syntax_highlighter: rouge
-
-gems:
-  - jekyll: '3.9.3'
-
