@@ -56,7 +56,7 @@ exclude:
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
-  - Gemfile.lock
+  #- Gemfile.lock
   - node_modules/
   - vendor/bundle/
   - vendor/cache/
@@ -79,3 +79,10 @@ kramdown:
   input: GFM
   hard_wrap: false
   syntax_highlighter: rouge
+
+source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
