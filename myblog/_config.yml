@@ -23,13 +23,14 @@ email: nabutech@proton.me
 description: >- # this means to ignore newlines until "baseurl:"
             "Navigating a Journey in Software Development and 
             Beyond with NabuTech"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/myblog" # the subpath of your site, e.g. /blog
+url: "https://nabutech.github.io/my-blog" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: minimal-mistakes-jekyll
+theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Author Settings
 author: 
@@ -62,6 +63,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+ 
 
 # Jeykll Feed Plugin Settings
 feed:
@@ -80,3 +82,4 @@ kramdown:
   hard_wrap: false
   syntax_highlighter: rouge
 
+destination: _site
